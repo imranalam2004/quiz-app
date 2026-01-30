@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Quiz Application</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="bg-logo-layer"></div>
+    <div class="bg-frugal">
+        <div class="bg-frugal-row row1">
+            <span>FRUGAL TESTING</span><span>FRUGAL TESTING</span><span>FRUGAL TESTING</span><span>FRUGAL TESTING</span><span>FRUGAL TESTING</span><span>FRUGAL TESTING</span>
+        </div>
+        <div class="bg-frugal-row row2">
+            <span>FRUGAL TESTING</span><span>FRUGAL TESTING</span><span>FRUGAL TESTING</span><span>FRUGAL TESTING</span><span>FRUGAL TESTING</span><span>FRUGAL TESTING</span>
+        </div>
+        <div class="bg-frugal-row row3">
+            <span>FRUGAL TESTING</span><span>FRUGAL TESTING</span><span>FRUGAL TESTING</span><span>FRUGAL TESTING</span><span>FRUGAL TESTING</span><span>FRUGAL TESTING</span>
+        </div>
+        <div class="bg-frugal-row row4">
+            <span>FRUGAL TESTING</span><span>FRUGAL TESTING</span><span>FRUGAL TESTING</span><span>FRUGAL TESTING</span><span>FRUGAL TESTING</span><span>FRUGAL TESTING</span>
+        </div>
+        <div class="bg-frugal-row row5">
+            <span>FRUGAL TESTING</span><span>FRUGAL TESTING</span><span>FRUGAL TESTING</span><span>FRUGAL TESTING</span><span>FRUGAL TESTING</span><span>FRUGAL TESTING</span>
+        </div>
+        <div class="bg-frugal-row row6">
+            <span>FRUGAL TESTING</span><span>FRUGAL TESTING</span><span>FRUGAL TESTING</span><span>FRUGAL TESTING</span><span>FRUGAL TESTING</span><span>FRUGAL TESTING</span>
+        </div>
+        <div class="bg-frugal-row row7">
+            <span>FRUGAL TESTING</span><span>FRUGAL TESTING</span><span>FRUGAL TESTING</span><span>FRUGAL TESTING</span><span>FRUGAL TESTING</span><span>FRUGAL TESTING</span>
+        </div>
+        <div class="bg-frugal-row row8">
+            <span>FRUGAL TESTING</span><span>FRUGAL TESTING</span><span>FRUGAL TESTING</span><span>FRUGAL TESTING</span><span>FRUGAL TESTING</span><span>FRUGAL TESTING</span>
+        </div>
+    </div>
+
+    <div class="app-container">
+        <header class="app-header">
+            <div class="brand">
+                <div class="brand-logo">
+                    <!-- Replace frugal-logo.png with your actual logo file name or URL -->
+                    <img src="logo.jpg" alt="Frugal Testing Logo" />
+                </div>
+                <div class="brand-text">
+                    <span class="brand-title">FRUGAL TESTING</span>
+                    <span class="brand-subtitle">Dynamic Quiz Application</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Setup Screen -->
+        <section id="setup-screen" class="card active">
+            <h2>Customize Your Quiz</h2>
+            <div class="form-row">
+                <label for="category-select">Category</label>
+                <select id="category-select">
+                    <option value="math">Math</option>
+                    <option value="science">Science</option>
+                    <option value="general">General Knowledge</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <label for="difficulty-select">Difficulty</label>
+                <select id="difficulty-select">
+                    <option value="easy">Easy</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">Hard</option>
+                </select>
+            </div>
+            <button id="start-quiz-btn" class="btn primary">Start Quiz</button>
+        </section>
+
+        <!-- Quiz Screen -->
+        <section id="quiz-screen" class="card hidden">
+            <div class="quiz-header">
+                <div id="question-counter" class="badge"></div>
+                <div class="timer pill">
+                    <span class="timer-label">Time left</span>
+                    <span id="timer" class="timer-value">00</span> s
+                </div>
+            </div>
+
+            <div class="progress-wrapper">
+                <div class="progress-bar">
+                    <div class="progress-fill"></div>
+                </div>
+            </div>
+
+            <h2 id="question-text" class="question-text"></h2>
+            <div id="options-container" class="options"></div>
+
+            <div class="quiz-controls">
+                <button id="prev-btn" class="btn ghost" disabled>Previous</button>
+                <button id="next-btn" class="btn">Next</button>
+                <button id="submit-btn" class="btn secondary" disabled>Submit Quiz</button>
+            </div>
+        </section>
+
+        <!-- Result Screen -->
+        <section id="result-screen" class="card hidden">
+            <div class="result-header">
+                <div>
+                    <h2>Quiz Results</h2>
+                    <p class="result-subtitle">Here’s a breakdown of how you performed in this quiz.</p>
+                </div>
+                <div class="badge badge-soft">Completed</div>
+            </div>
+
+            <div id="result-summary" class="result-summary"></div>
+
+            <div class="charts-grid">
+                <div class="chart-card">
+                    <h3>Accuracy</h3>
+                    <p class="chart-caption">Distribution of correct vs incorrect answers.</p>
+                    <canvas id="accuracyChart"></canvas>
+                </div>
+                <div class="chart-card">
+                    <h3>Time per Question</h3>
+                    <p class="chart-caption">Seconds spent on each question.</p>
+                    <canvas id="timeChart"></canvas>
+                </div>
+            </div>
+
+            <div class="result-actions">
+                <button id="restart-btn" class="btn secondary">Retake Quiz</button>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
