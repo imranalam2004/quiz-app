@@ -1,0 +1,89 @@
+[2025-11-19 22:52:56] === New test run ===
+[2025-11-19 22:52:59] WebDriver initialized
+[2025-11-19 22:52:59] Landing Page URL: file:///C:/Users/OS/Desktop/TestingAPpp/quiz-app/index.html
+[2025-11-19 22:52:59] Landing Page Title: Dynamic Quiz Application
+[2025-11-19 22:53:00] Saved screenshot: C:\Users\OS\Desktop\TestingAPpp\selenium-tests\screenshots\01_landing_page.png
+[2025-11-19 22:53:00] First Question: What is 1 + 2?
+[2025-11-19 22:53:00] Saved screenshot: C:\Users\OS\Desktop\TestingAPpp\selenium-tests\screenshots\02_first_question.png
+[2025-11-19 22:53:01] Saved screenshot: C:\Users\OS\Desktop\TestingAPpp\selenium-tests\screenshots\question_Question_1_of_1.png
+[2025-11-19 22:53:01] Saved screenshot: C:\Users\OS\Desktop\TestingAPpp\selenium-tests\screenshots\03_after_submit.png
+[2025-11-19 22:53:01] Result Summary Text: 
+Total Questions: 1
+Correct Answers: 0
+Incorrect Answers: 1
+Score: 0%
+Total Time Spent: 1 seconds
+Average Time per Question: 1.0 seconds
+[2025-11-19 22:53:02] Saved screenshot: C:\Users\OS\Desktop\TestingAPpp\selenium-tests\screenshots\04_result_analysis.png
+[2025-11-19 22:53:02] Quiz automation test completed successfully.
+[2025-11-19 22:53:02] Closing browser
+[2025-11-19 22:53:02] Closing log writer
+[2025-11-19 22:55:01] === New test run ===
+[2025-11-19 22:55:04] WebDriver initialized
+[2025-11-19 22:55:04] Landing Page URL: file:///C:/Users/OS/Desktop/TestingAPpp/quiz-app/index.html
+[2025-11-19 22:55:04] Landing Page Title: Dynamic Quiz Application
+[2025-11-19 22:55:04] Waiting 5 seconds before: capture landing page screenshot
+[2025-11-19 22:55:09] Saved screenshot: C:\Users\OS\Desktop\TestingAPpp\selenium-tests\screenshots\01_landing_page.png
+[2025-11-19 22:55:10] Waiting 5 seconds before: start quiz
+[2025-11-19 22:55:15] First Question: What is 1 + 2?
+[2025-11-19 22:55:15] Waiting 5 seconds before: capture first question screenshot
+[2025-11-19 22:55:20] Saved screenshot: C:\Users\OS\Desktop\TestingAPpp\selenium-tests\screenshots\02_first_question.png
+[2025-11-19 22:55:20] Waiting 5 seconds before: answer current question
+[2025-11-19 22:55:26] Saved screenshot: C:\Users\OS\Desktop\TestingAPpp\selenium-tests\screenshots\question_Question_1_of_1.png
+[2025-11-19 22:55:26] Waiting 5 seconds before: submit quiz
+[2025-11-19 22:55:31] Closing browser
+[2025-11-19 22:55:31] Closing log writer
+[2025-11-19 22:56:16] === New test run ===
+[2025-11-19 22:56:19] WebDriver initialized
+[2025-11-19 22:56:19] Landing Page URL: file:///C:/Users/OS/Desktop/TestingAPpp/quiz-app/index.html
+[2025-11-19 22:56:19] Landing Page Title: Dynamic Quiz Application
+[2025-11-19 22:56:19] Waiting 5 seconds before: capture landing page screenshot
+[2025-11-19 22:56:25] Saved screenshot: C:\Users\OS\Desktop\TestingAPpp\selenium-tests\screenshots\01_landing_page.png
+[2025-11-19 22:56:25] Waiting 5 seconds before: start quiz
+[2025-11-19 22:56:30] First Question: What is 1 + 2?
+[2025-11-19 22:56:30] Quiz per-question timer disabled for testing.
+[2025-11-19 22:56:30] Waiting 5 seconds before: capture first question screenshot
+[2025-11-19 22:56:35] Saved screenshot: C:\Users\OS\Desktop\TestingAPpp\selenium-tests\screenshots\02_first_question.png
+[2025-11-19 22:56:35] Waiting 5 seconds before: answer current question
+[2025-11-19 22:56:41] Saved screenshot: C:\Users\OS\Desktop\TestingAPpp\selenium-tests\screenshots\question_Question_1_of_1.png
+[2025-11-19 22:56:41] Waiting 5 seconds before: submit quiz
+[2025-11-19 22:56:47] Saved screenshot: C:\Users\OS\Desktop\TestingAPpp\selenium-tests\screenshots\03_after_submit.png
+[2025-11-19 22:56:47] Result Summary Text: 
+Total Questions: 1
+Correct Answers: 0
+Incorrect Answers: 1
+Score: 0%
+Total Time Spent: 0 seconds
+Average Time per Question: 0.0 seconds
+[2025-11-19 22:56:47] Waiting 5 seconds before: capture result analysis screenshot
+[2025-11-19 22:56:52] Saved screenshot: C:\Users\OS\Desktop\TestingAPpp\selenium-tests\screenshots\04_result_analysis.png
+[2025-11-19 22:56:52] Quiz automation test completed successfully.
+[2025-11-19 22:56:52] Closing browser
+[2025-11-19 22:56:53] Closing log writer
+[2025-11-19 22:57:21] === New test run ===
+[2025-11-19 22:57:23] WebDriver initialized
+[2025-11-19 22:57:24] Landing Page URL: file:///C:/Users/OS/Desktop/TestingAPpp/quiz-app/index.html
+[2025-11-19 22:57:24] Landing Page Title: Dynamic Quiz Application
+[2025-11-19 22:57:24] Waiting 5 seconds before: capture landing page screenshot
+[2025-11-19 22:57:29] Saved screenshot: C:\Users\OS\Desktop\TestingAPpp\selenium-tests\screenshots\01_landing_page.png
+[2025-11-19 22:57:29] Waiting 5 seconds before: start quiz
+[2025-11-19 22:57:34] First Question: Water freezes at what temperature (°C)?
+[2025-11-19 22:57:34] Quiz per-question timer disabled for testing.
+[2025-11-19 22:57:34] Waiting 5 seconds before: capture first question screenshot
+[2025-11-19 22:57:40] Saved screenshot: C:\Users\OS\Desktop\TestingAPpp\selenium-tests\screenshots\02_first_question.png
+[2025-11-19 22:57:40] Waiting 5 seconds before: answer current question
+[2025-11-19 22:57:45] Saved screenshot: C:\Users\OS\Desktop\TestingAPpp\selenium-tests\screenshots\question_Question_1_of_1.png
+[2025-11-19 22:57:45] Waiting 5 seconds before: submit quiz
+[2025-11-19 22:57:51] Saved screenshot: C:\Users\OS\Desktop\TestingAPpp\selenium-tests\screenshots\03_after_submit.png
+[2025-11-19 22:57:51] Result Summary Text: 
+Total Questions: 1
+Correct Answers: 1
+Incorrect Answers: 0
+Score: 100%
+Total Time Spent: 0 seconds
+Average Time per Question: 0.0 seconds
+[2025-11-19 22:57:51] Waiting 5 seconds before: capture result analysis screenshot
+[2025-11-19 22:57:56] Saved screenshot: C:\Users\OS\Desktop\TestingAPpp\selenium-tests\screenshots\04_result_analysis.png
+[2025-11-19 22:57:56] Quiz automation test completed successfully.
+[2025-11-19 22:57:56] Closing browser
+[2025-11-19 22:57:57] Closing log writer
